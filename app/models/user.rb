@@ -4,4 +4,4 @@ class User < ApplicationRecord
   has_many :authors, through: :activity
   has_many :books, through: :comment
   has_many :books, through: :review
-  end
+end
